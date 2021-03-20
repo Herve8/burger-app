@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 // Import routes and give the server access to them.
 const routes = require('./controllers/burgersController.js');
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
